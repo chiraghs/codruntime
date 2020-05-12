@@ -1,5 +1,5 @@
 <template>
-        <v-layout row mx-4 center>
+        <v-layout row mx-4 wrap center>
           <v-flex xs6 sm6 md6 v-for="(item,i) in items" :key="i" class="pa-2">
               <v-card class="mx-auto" max-width="600" style="cursor:pointer" :href="item.route">
                 <v-img class="white--text align-end" height="200px" :src="getImgLink(item.src)">
@@ -20,6 +20,18 @@
           },
           {
             src: 'gym2.jpg', text: 'Online Therapy', subtext: 'feel Good', route: '/onlinetherapy'
+          },
+          {
+            src: 'gym6.jpg', text: 'Trainer', subtext: 'Sweat Achieve',  route: '/trainer'
+          },
+          {
+            src: 'gym8.jpg', text: 'Commit Track', subtext: 'to be fit', route: '/committrack'
+          },
+           {
+            src: 'diet3.jpg', text: 'Eat Good', subtext: 'Sweat Achieve', route: '/eatgood'
+          },
+          {
+            src: 'diet4.jpg', text: 'Fit or Not', subtext: 'to be fit', route: '/fitornot'
           },
         ],
       }
