@@ -10,7 +10,7 @@
       <template v-slot:activator>
         <v-btn
           v-model="fabfloat"
-          color="#8B5E3C"
+          color="#3A6B1D"
           dark
           fab
         >
@@ -18,17 +18,17 @@
           <v-icon v-else>mdi-account-circle</v-icon>
         </v-btn>
       </template>
-      <v-btn color="#8B5E3C" fab dark href="https://www.instagram.com/chirag_hs_/" target="_blank">
+      <v-btn color="#3A6B1D" fab dark href="https://www.instagram.com/chirag_hs_/" target="_blank">
         <v-icon class="white--text">mdi-instagram</v-icon>
       </v-btn>
-      <v-btn color="#8B5E3C" fab dark href="https://www.facebook.com/chiraghs.hs"  target="_blank">
+      <v-btn color="#3A6B1D" fab dark href="https://www.facebook.com/chiraghs.hs"  target="_blank">
         <v-icon class="white--text">mdi-facebook</v-icon>
       </v-btn>
 
 
       <!-- <v-dialog v-model="dialog" persistent max-width="600px">
       <template v-slot:activator="{ on }">
-        <v-btn color="#8B5E3C" fab dark v-on="on">
+        <v-btn color="#3A6B1D" fab dark v-on="on">
           <v-icon class="white--text">mdi-account-circle</v-icon>
         </v-btn>
       </template>
@@ -85,7 +85,7 @@
       </v-card>
     </v-dialog> -->
 
-      <v-btn color="#8B5E3C" fab dark  href="https://www.chiraghs.me"  target="_blank">
+      <v-btn color="#3A6B1D" fab dark  href="https://www.chiraghs.me"  target="_blank">
         <v-icon class="white--text">mdi-web</v-icon>
       </v-btn>
     </v-speed-dial>

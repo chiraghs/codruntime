@@ -4,41 +4,41 @@
     <div class="section2">
         <v-layout row class="ma-4 pa-1">
           <v-flex xs6 sm6 md6>
-              <v-card class="mx-auto" max-width="600" heigth="400" style="cursor:pointer" href="/vegan">
+              <v-card class="mx-auto" max-width="600" heigth="400" style="cursor:pointer" href="/saplings">
                 <v-img class="white--text align-end" height="200px" src="../assets/diet2.jpg">
-                <v-card-title style="font-size:26px;">Vegan Diet</v-card-title>
+                <v-card-title style="font-size:26px;">Saplings</v-card-title>
                 </v-img>
               </v-card>
           </v-flex>
           <v-flex xs6 sm6 md6>
-            <v-card class="mx-auto" max-width="600"  style="cursor:pointer" href="/female">
-                <v-img class="white--text align-end" height="200px" src="../assets/dietfemale.jpg">
-                <v-card-title style="font-size:26px;">Female Diet</v-card-title>
+            <v-card class="mx-auto" max-width="600"  style="cursor:pointer" href="/crops">
+                <v-img class="white--text align-end" height="200px" src="../assets/store1.jpg">
+                <v-card-title style="font-size:26px;">Crops Production</v-card-title>
                 </v-img>
             </v-card>
           </v-flex>
         </v-layout>
         <v-layout row class="ma-4">
           <v-flex xs6 sm6 md6>
-              <v-card class="mx-auto" max-width="600" style="cursor:pointer" href="/male">
-                <v-img class="white--text align-end" height="200px" src="../assets/dietmale.jpg">
-                <v-card-title style="font-size:26px;">Male Diet</v-card-title>
+              <v-card class="mx-auto" max-width="600" style="cursor:pointer" href="/animal">
+                <v-img class="white--text align-end" height="200px" src="../assets/store3.jpg">
+                <v-card-title style="font-size:26px;">Animal Husbandry</v-card-title>
                 </v-img>
               </v-card>
           </v-flex>
           <v-flex xs6 sm6 md6>
-            <v-card class="mx-auto" max-width="600"  style="cursor:pointer" href="/elder">
-                <v-img class="white--text align-end" height="200px" src="../assets/gym3.jpg">
-                <v-card-title style="font-size:26px;">Elder People Diet</v-card-title>
+            <v-card class="mx-auto" max-width="600"  style="cursor:pointer" href="/sell">
+                <v-img class="white--text align-end" height="200px" src="../assets/diet5.jpg">
+                <v-card-title style="font-size:26px;">Sell</v-card-title>
                 </v-img>
             </v-card>
           </v-flex>
         </v-layout>
         <v-layout row class="ma-4">
           <v-flex xs6 sm6 md6>
-              <v-card class="mx-auto" max-width="600" style="cursor:pointer" href="/children">
-                <v-img class="white--text align-end" height="200px" src="../assets/gym10.jpg">
-                <v-card-title style="font-size:26px;">Children Diet</v-card-title>
+              <v-card class="mx-auto" max-width="600" style="cursor:pointer" href="/production">
+                <v-img class="white--text align-end" height="200px" src="../assets/farmer1.jpg">
+                <v-card-title style="font-size:26px;">Production</v-card-title>
                 </v-img>
               </v-card>
           </v-flex>

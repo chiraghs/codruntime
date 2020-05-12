@@ -19,7 +19,7 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/consult',
+    path: '/contactnearby',
     name: 'Consult',
     component: () => import(/* webpackChunkName: "about" */ '../views/consult.vue')
   },
@@ -29,7 +29,7 @@ Vue.use(VueRouter)
     component: () => import(/* webpackChunkName: "about" */ '../views/store.vue')
   },
   {
-    path: '/diet',
+    path: '/farmer',
     name: 'Diet',
     component: () => import(/* webpackChunkName: "about" */ '../views/diet.vue')
   },
@@ -57,6 +57,11 @@ Vue.use(VueRouter)
     path: '/elder',
     name: 'Vegan',
     component: () => import(/* webpackChunkName: "about" */ '../views/elder.vue')
+  },
+  {
+    path: '/employment',
+    name: 'Vegan',
+    component: () => import(/* webpackChunkName: "about" */ '../views/employment.vue')
   },
 ]
 

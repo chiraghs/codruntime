@@ -24,7 +24,7 @@
          <div class="diettextinfo" style="color:white;margin:180px 100px;">
            <h2 style="font-size:55px">{{item.text}}</h2>
            <h2 style="font-size:26px">{{item.subtext}}</h2>
-           <v-btn depressed small class="white--text" color="#8B5E3C" href="/diet">Read More</v-btn>
+           <v-btn depressed small class="white--text" color="#3A6B1D" :href="item.route">{{item.text}}</v-btn>
          </div>
       </div>
     </v-carousel-item>
@@ -38,16 +38,16 @@
       return {
         items: [
           {
-            src: 'diet5.jpg', text: 'Online', subtext: 'Healthy Recipes'
+            src: 'diet1.jpg', text: 'Contact', subtext: 'Nearby', route: '/contactnearby'
           },
           {
-            src: 'diet1.jpg', text: 'Eat', subtext: 'feel Good'
+            src: 'diet2.jpg', text: 'Eat', subtext: 'feel Good', route: '/food'
           },
           {
-            src: 'diet3.jpg', text: 'Work', subtext: 'Sweat Achieve'
+            src: 'diet3.jpg', text: 'Work', subtext: 'Employment', route: '/employment'
           },
           {
-            src: 'diet4.jpg', text: 'Commit', subtext: 'to be fit'
+            src: 'hero1.jpg', text: 'Farmers', subtext: 'for you', route: '/farmer'
           },
         ],
       }

@@ -16,22 +16,22 @@
       return {
         items: [
           {
-            src: 'gym1.jpg', text: 'Gyms Near', subtext: 'Healthy Recipes', route: '/gymnear'
+            src: 'farmer1.jpg', text: 'Farmer', subtext: 'Healthy Recipes', route: '/farmer'
           },
           {
-            src: 'gym2.jpg', text: 'Online Therapy', subtext: 'feel Good', route: '/onlinetherapy'
+            src: 'farmer2.jpg', text: 'Employment', subtext: 'feel Good', route: '/employment'
           },
           {
-            src: 'gym6.jpg', text: 'Trainer', subtext: 'Sweat Achieve',  route: '/trainer'
+            src: 'farmer3.jpg', text: 'Food', subtext: 'Sweat Achieve',  route: '/food'
           },
           {
-            src: 'gym8.jpg', text: 'Commit Track', subtext: 'to be fit', route: '/committrack'
+            src: 'farmer4.jpg', text: 'Transportation', subtext: 'to be fit', route: '/transport'
           },
            {
-            src: 'diet3.jpg', text: 'Eat Good', subtext: 'Sweat Achieve', route: '/eatgood'
+            src: 'farmer5.jpg', text: 'Geo fencing', subtext: 'Sweat Achieve', route: '/geofencing'
           },
           {
-            src: 'diet4.jpg', text: 'Fit or Not', subtext: 'to be fit', route: '/fitornot'
+            src: 'farmer6.jpg', text: 'Thermal Scanning', subtext: 'to be fit', route: '/thermal'
           },
         ],
       }

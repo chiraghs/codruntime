@@ -37,16 +37,16 @@
       return {
         items: [
           {
-            src: 'gym7.jpg', text: 'Best', subtext: 'Equipments'
+            src: 'store1.jpg', text: 'Best', subtext: 'Equipments'
           },
           {
-            src: 'gym8.jpg', text: 'Qualitative', subtext: '& Quantitative'
+            src: 'diet2.jpg', text: 'Qualitative', subtext: '& Quantitative'
           },
           {
-            src: 'gym9.jpg', text: 'Technology', subtext: 'Powered'
+            src: 'store3.jpg', text: 'Technology', subtext: 'Powered'
           },
           {
-            src: 'gym12.jpg', text: 'Assured', subtext: 'products'
+            src: 'diet4.jpg', text: 'Assured', subtext: 'products'
           },
         ],
       }

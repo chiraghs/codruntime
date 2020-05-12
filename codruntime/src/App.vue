@@ -1,6 +1,6 @@
 <template>
   <v-app class="grey">
-    <NavBar  class="grey"></NavBar>
+    <NavBar class=""></NavBar>
       <router-view class="grey"></router-view>
       <Fab/>
     <Footer></Footer>

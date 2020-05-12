@@ -11,7 +11,7 @@
         </v-flex>
       </v-layout>
 
-      <v-dialog v-model="dialog" persistent max-width="600px">
+      <v-dialog v-model="dialog" max-width="600px">
       <template v-slot:activator="{ on }">
         <v-btn icon v-model="drawer" v-on="on" class="white--text">
           <v-icon left class="white--text">mdi-account-circle</v-icon>Contact
@@ -37,13 +37,13 @@
                 ></v-text-field>
               </v-col>
               <v-col cols="12">
-                <v-text-field label="Email*" required hint="we use your Email to contact you"></v-text-field>
+                <v-text-field label="Email" hint="we use your Email to contact you"></v-text-field>
               </v-col>
               <v-col cols="12" sm="4" md="4">
-                <v-text-field label="Weight" required></v-text-field>
+                <v-text-field label="Home City" required></v-text-field>
               </v-col>
               <v-col cols="12" sm="4" md="4">
-                <v-text-field label="Height" ></v-text-field>
+                <v-text-field label="Current City" ></v-text-field>
               </v-col>
               <v-col cols="12" sm="6">
                 <v-select dark class="dark"
@@ -51,13 +51,6 @@
                   label="Age*"
                   required
                 ></v-select>
-              </v-col>
-              <v-col cols="12" sm="6">
-                <v-autocomplete color="grey"
-                  :items="['Skiing', 'Ice hockey', 'Soccer', 'Basketball', 'Hockey', 'Reading', 'Writing', 'Coding', 'Basejump']"
-                  label="Interests"
-                  multiple dark
-                ></v-autocomplete>
               </v-col>
             </v-row>
           </v-container>
@@ -81,7 +74,7 @@
 
 
       <v-btn icon v-model="drawer" @click="drawer =!drawer">
-        <v-icon class="white--text">mdi-menu-open</v-icon>
+        <v-icon class="white--text">mdi-menu</v-icon>
       </v-btn>
     </v-toolbar>
 
@@ -108,8 +101,8 @@
             </v-list-item-avatar>
 
             <v-list-item-content>
-              <v-list-item-title>Fitness</v-list-item-title>
-              <v-list-item-subtitle>CodeRit Hackhathon</v-list-item-subtitle>
+              <v-list-item-title>Codruntime</v-list-item-title>
+              <v-list-item-subtitle>MeRiise Hackhathon</v-list-item-subtitle>
             </v-list-item-content>
           </v-list-item>
 
@@ -144,26 +137,25 @@ export default {
             dialog: false,
             links:[
                      { icon: 'mdi-home-outline', text: 'Home', route: '/' },
-                     { icon: 'mdi-doctor', text: 'Consult', route: '/consult' },
-                     { icon: 'mdi-storefront-outline', text: 'Store', route: '/store' },
-                     { icon: 'mdi-food-apple-outline', text: 'Diet', route: '/diet' },
-                     { icon: 'mdi-dumbbell', text: 'Gyms Near', route: '/gymnear' },
-                     { icon: 'mdi-shield-account-outline', text: 'Trainer', route: '/trainer' },
-                     { icon: 'mdi-weight-lifter', text: 'Fit or Not', route: '/fitornot' },
-                     { icon: 'mdi-food-variant', text: 'Eat Good', route: '/eatgood' },
-                     { icon: 'mdi-calendar', text: 'Events', route: '/calender' },
-                     { icon: 'mdi-battlenet', text: 'Online Therapy', route: '/onlinetherapy' },
-                     { icon: 'mdi-meditation', text: 'Meditation', route: '/meditation' },
+                     { icon: 'mdi-leaf', text: 'Farmer', route: '/farmer' },
+                     { icon: 'mdi-storefront-outline', text: 'Store PPE', route: '/store' },
+                     { icon: 'mdi-train-car', text: 'Transportation', route: '/transport' },
+                     { icon: 'mdi-shield-account-outline', text: 'Employment', route: '/employment' },
+                     { icon: 'mdi-bell', text: 'Surveillance & Monitoring', route: '/notify' },
+                     { icon: 'mdi-food-variant', text: 'Food', route: '/food' },
+                     { icon: 'mdi-home-thermometer', text: 'Thermal Scanning', route: '/thermal' },
+                     { icon: 'mdi-map-marker', text: 'GeoFencing', route: '/geofencing' },
+                     { icon: 'mdi-phone', text: 'Contact Nearby', route: '/contactnearby' },
             ],
             navitems:[
-                      {text: 'Consult', rout: '/consult'},
-                      {text: 'Store', rout: '/store'},
-                      {text: 'Diet', rout: '/diet'},
-                      {text: 'Trainer', rout: '/trainer'},
+                      {text: 'Farmer', rout: '/farmer'},
+                      {text: 'Store PPE', rout: '/store'},
+                      {text: 'S & M', rout: '/notify'},
+                      {text: 'Employment', rout: '/employment'},
             ],
         right: true,
         miniVariant: false,
-        expandOnHover: true,
+        expandOnHover: false,
         background: false,
       }
         },
@@ -184,7 +176,7 @@ export default {
   transition: 0.2s ease-in;
 }
 #navitem:hover {
-  color: #8B5E3C
+  color: #3A6B1D
 }
 @media only screen and (max-width: 650px) {
   #navmenu {
