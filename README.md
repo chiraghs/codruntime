@@ -1,6 +1,6 @@
-# [Fitness Guru]
+# [Codruntime]
 
-## [Fitness App link](https://fitness-b79f7.firebaseapp.com/)
+## [App link](https://fitness-b79f7.firebaseapp.com/)
 
 ![version](https://img.shields.io/badge/version-1.0-blue.svg)   [![Chat](https://img.shields.io/badge/chat-on%20instagram-7289da.svg)](https://www.instagram.com/chirag_hs_/?hl=en)
 
@@ -12,14 +12,8 @@ It contains.
 --home Image above 
 ------------------------------------------------------------
 
---diet 
-![Product Gif](/images/diet.jpeg)
-
-------------------------------------------------------------
-
---dietplan 
-![Product Gif](/images/dietplan.jpeg)
-
+--farmer 
+![Product Gif](/images/farmer.jpeg)
 
 ------------------------------------------------------------
 
@@ -28,10 +22,6 @@ It contains.
 ![Product Gif](/images/store.jpeg)
 
 
-------------------------------------------------------------
-
---Mobile 
-![Product Gif](/images/mob.jpeg)
 
 
 ------------------------------------------------------------
