@@ -63,6 +63,11 @@ Vue.use(VueRouter)
     name: 'Vegan',
     component: () => import(/* webpackChunkName: "about" */ '../views/employment.vue')
   },
+  {
+    path: '/notify',
+    name: 'Vegan',
+    component: () => import(/* webpackChunkName: "about" */ '../views/notify.vue')
+  },
 ]
 
 const router = new VueRouter({

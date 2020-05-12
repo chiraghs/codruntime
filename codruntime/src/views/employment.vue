@@ -14,13 +14,13 @@
         {{item.Name}}
     </v-card-text>
     <v-card-text class="headline font-weight-bold">
-        {{item.Job}}
+        {{item.Date}}
     </v-card-text>
     <v-card-text class="headline font-weight-bold">
         {{item.infojob}}
     </v-card-text>
     <v-icon class="ml-4">mdi-map</v-icon>
-    <span xs-small class="subheading">{{item.Location}}</span>
+    <span xs-small class="subheading">{{item.City}}</span>
 
     <v-card-actions>
       <v-list-item class="grow">
@@ -69,7 +69,7 @@ import db from '@/fb'
       Diet: () => import('@/components/Diet'),
     },
     created() {
-      db.collection('doctor').onSnapshot(res => {
+      db.collection('events').onSnapshot(res => {
         const changes = res.docChanges();
 
         changes.forEach(change => {
