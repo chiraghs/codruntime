@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="grey darken-4">
   <div class="section2">
-        <v-layout row mx-4 center>
+        <v-layout row mx-4 center wrap>
           <v-flex xs6 sm6 md4 v-for="(item,i) in items" :key="i" class="pa-2">
               <v-card
     class="mx-auto"
